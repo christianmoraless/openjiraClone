@@ -3,7 +3,7 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
   
 export const Nabvar = () => {
   return (
-    <AppBar position='sticky' elevation={0}>
+    <AppBar>
       <Toolbar>
         <IconButton
           size='large'

@@ -1,7 +1,7 @@
 import Head from "next/head"
 import { Box } from "@mui/material"
 import { FC } from "react"
-import { Nabvar } from "../ui"
+import { Nabvar, SideBar } from "../ui"
 
 interface Props{
     title?:string,
@@ -14,7 +14,7 @@ export const Layout:FC<Props> = ({title = 'OpenJira',children}) => {
                 <title>{title}</title>
             </Head>
             <Nabvar/>
-            {/* SIDEBAR */}
+            <SideBar/>
 
             <Box sx={{padding:'10px 20px'}}>
                 {children}

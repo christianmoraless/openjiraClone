@@ -21,7 +21,9 @@ export const darkTheme = createTheme({
         MuiAppBar:{
           styleOverrides:{
             root:{
-              backgroundColor:'#4a148c'
+              backgroundColor:'#4a148c',
+              elevation:'0',
+              position:'sticky'
             }
           }
         }
